@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    height: 69px;
+    width: 100%
+    
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav_main{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    line-height: 69px;
+}
+.logo{
+    padding: 16.5px 0px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    color: black;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    padding: 0px 16px;
+}
+.menu ul li:last-child a{
+    background-color: black;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.menu ul li:last-child a:hover{
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+/* nav end */
+
+/* banner start */
+.text,.image{
+    width: 560px;
+}
+.ban_main{
+    display: flex;
+    justify-content: space-between;
+}
+.text h1{
+    font-family:"Inter", serif ;
+    font-size: 60px;
+    font-weight: bold;
+}
+.text p{
+    font-family:"Inter", serif ;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    padding-top: 24px;
+    padding-bottom: 45px;
+}
+.text a{
+    background-color: black;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-family:"Inter", serif ;
+    transition: 0.5s;
+}
+.text a:hover{
+    background-color: rgb(40, 39, 39);
+}
+/* banner end */
+
+/* service start */
+.sec_head{
+    padding-top: 118px;
+}
+.sec_head p{
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:"Inter", serif ;
+    font-size: 16px;
+}
+
+.sec_main{
+    padding: 64px 0px ;
+    display: flex;
+    justify-content: space-between;
+}
+.sec_inner {
+    text-align: center;
+}
+.sec_inner h3{
+    font-family:"Inter", serif ;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 24px;
+    padding-left: 49px;
+    padding-right: 49px;
+}
+.sec_inner h4{
+    font-family:"Inter", serif ;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+.sec_inner p{
+    font-family:"Inter", serif ;
+    font-size: 16px;
+    padding-top: 16px;
+}
+#01{
+    padding-left: 48px;
+}
+#03{
+    padding-right: 48px;
+}
+/* service end */
+
+/* features start */
+.fea_main{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0px;
+}
+.fea01,.fea02div{
+    width: 45%;
+}
+.fea_img{
+    width: 80px;
+}
+.fea_img img{
+    width: 100%;
+}
+.fea02{
+    display: flex;
+    padding: 16px 0px;
+}
+.fea02 p{
+    padding: 0px 24px;
+}
+.fea01 h3{
+    font-family:"Inter", serif ;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 24px;
+}
+.fea01 p{
+    font-family:"Inter", serif ;
+    font-weight: normal;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.fea01 a{
+    font-family:"Inter", serif ;
+    font-weight: normal;
+    font-size: 14px;
+    color: blue;
+}
+.fea_text p{
+    font-family:"Inter", serif ;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* features end */
+
+/* contact satrt */
+.con_main{
+    padding: 64px 0px;
+}
+.con_head{
+    width: 530px;
+    margin: 0 auto;
+}
+.con_head h3{
+    font-family:"Inter", serif ;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.con_head p{
+    font-family:"Inter", serif ;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 16px;
+}
+.con_form{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.con_form label{
+    font-family:"Inter", serif ;
+    font-size: 14px;
+}
+.con_form input{
+    font-family:"Inter", serif ;
+    width: 100%;
+    height: 42px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    
+}
+.con_form textarea{
+    font-family:"Inter", serif ;
+    width: 100%;
+    height: 100px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+}
+.con_form .btn button{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 41px;
+    font-family:"Inter", serif ;
+    font-size: 12px;
+    font-weight: normal;
+
+}
+/* contact end */
